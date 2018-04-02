@@ -1,4 +1,4 @@
-# UVa 11078 Open Credit System
+# [UVa 11078 Open Credit System](https://uva.onlinejudge.org/external/110/11078.pdf)
 For each test case, scan the **n** scores from 1 to **n**. Keep updating the the maximum score so far for each ***i*** in **n**.
 The maximum difference for the ***i*** th student (regard he or she as the junior one) is
 * **maximum score so far - score of ***i*** th student**
