@@ -5,7 +5,7 @@ First, expand the grid length and width to 2*N as following example, which makes
 
 original grid (2*2):
 
-|  | b |
+| a | b |
 |---|---|
 | c | d |
 
