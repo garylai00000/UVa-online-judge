@@ -4,13 +4,15 @@ Three approaches for this problem
 First, expand the grid length and width to 2*N as following example, which makes it easier to solve the cyclic situation.
 
 original grid (2*2):
-| a | b |
-|:-:|---|
+
+|  | b |
+|---|---|
 | c | d |
 
 after expand (4*4):
+
 | a | b | a | b |
-|:-:|---|---|---|
+|---|---|---|---|
 | c | d | c | d |
 | a | b | a | b |
 | c | d | c | d |
@@ -30,11 +32,13 @@ Finally, enumerate each rectangle in the expanded grid with length at most **N**
 First, expand the grid length and width to 2*N as following example, which makes it easier to solve the cyclic situation.
 
 original grid (2*2):
+
 | a | b |
 |:-:|---|
 | c | d |
 
 after expand (4*4):
+
 | a | b | a | b |
 |:-:|---|---|---|
 | c | d | c | d |
@@ -55,11 +59,13 @@ Third, enumerate each up and down boundary and calculate the correspondent colum
 First, expand the grid length to 2*N as following example, without expanding the width of the grid, we have to handle the cyclic situation in another way.
 
 original grid (2*2):
+
 | a | b |
 |:-:|---|
 | c | d |
 
 after expand (4*2):
+
 | a | b | 
 |:-:|---|
 | c | d |
