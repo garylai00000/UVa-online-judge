@@ -17,7 +17,7 @@ after expand (4*4):
 
 Second, calculate an 2D array **sum** where 
 
-![img1](http://www.sciweavers.org/tex2img.php?eq=%20sum%5Bn%5D%5Bm%5D%20%3D%20%5Csum_%7Bi%3D0%7D%5En&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)![img1](http://www.sciweavers.org/tex2img.php?eq=%5Csum_%7Bj%3D0%7D%5Em%20grid%5Bi%5D%5Bj%5D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![img1](http://www.sciweavers.org/tex2img.php?eq=%20sum%5Bn%5D%5Bm%5D%20%3D%20%5Csum_%7Bi%3D0%7D%5En&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)![img4](http://www.sciweavers.org/tex2img.php?eq=%5Csum_%7Bj%3D0%7D%5Em%20grid%5Bi%5D%5Bj%5D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 By using **inclusion and exclusion**, we can calculate this array in **O(N^2)**
 
