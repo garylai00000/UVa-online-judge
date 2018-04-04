@@ -17,7 +17,7 @@ after expand (4*4):
 
 Second, calculate an 2D array **sum** where 
 
-![img1](http://bit.ly/2uP2KJi)
+![image1](https://github.com/garylai00000/UVa-online-judge/blob/master/UVa10827/images/image1.png?raw=true)
 
 By using **inclusion and exclusion**, we can calculate this array in **O(N^2)**
 
@@ -43,7 +43,7 @@ after expand (4*4):
 
 Second, calculate an 2D array **sum** where 
 
-![img2](http://www.sciweavers.org/tex2img.php?eq=sum%5Bn%5D%5Bm%5D%20%3D%20%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20grid%5Bi%5D%5Bm%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![image2](https://github.com/garylai00000/UVa-online-judge/blob/master/UVa10827/images/image2.png?raw=true)
 
 
 Third, enumerate each up and down boundary and calculate the correspondent column summation for each column as an array, the problem then becomes a **maximum sub array problem** with length at most **N** and we can solve this problem in **O(N)** with a **double ended queue**.
@@ -69,7 +69,7 @@ after expand (4*2):
 Second, calculate an 2D array **sum**  same as **Approach 2** where 
 
 
-![img3](http://www.sciweavers.org/tex2img.php?eq=sum%5Bn%5D%5Bm%5D%20%3D%20%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20grid%5Bi%5D%5Bm%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![image2](https://github.com/garylai00000/UVa-online-judge/blob/master/UVa10827/images/image2.png?raw=true)
 
 which denotes the column summation
 
