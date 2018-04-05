@@ -49,6 +49,7 @@ Second, calculate an 2D array **sum** where
 
 ![image2](https://github.com/garylai00000/UVa-online-judge/blob/master/UVa10827/images/image2.png?raw=true)
 
+which denotes the column summation
 
 Third, enumerate each up and down boundary and calculate the correspondent column summation for each column as an array. The problem then becomes a **maximum sub array problem** with length at most **N** and can be solved in **O(N)** with a **double ended queue**.
 
